@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -7,6 +7,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -20,15 +23,15 @@ body {
     border: 2px solid #000;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    width: 400px;
+    width: 450px;
     height: 100px;
     overflow: hidden;
     transition: height 0.5s ease-in-out;
 }
 
 .open {
-    height: 1200px; /* Altura adicional para mostrar el contenido completo */
-    width: 650px;
+    height: 850px; /* Altura adicional para mostrar el contenido completo */
+    width: 540px;
 }
 
 button {
